@@ -1,0 +1,156 @@
+html{
+ background-image: url(https://w0.peakpx.com/wallpaper/581/454/HD-wallpaper-fancy-red-and-black-floral-inspired-backgrounds-that-seamlessly-tiles-for-your-mobile-tablet-black-and-red-luxury.jpg);
+ 
+
+ 
+
+}
+#soccer{
+    color:white;
+}
+
+#maintitle{
+    text-align:center;
+    color: rgb(255, 255, 255);
+    font-size:2rem;
+}
+
+img{
+   width: 20%;
+   height:13%;
+   /* margin-left:auto;
+   margin-right:auto;
+   display:block;  */
+}
+
+img:hover{
+    animation: scaleimg 1s forwards;
+}
+@keyframes scaleimg{
+    0%{
+        transform:scale(1);
+    }
+    100%{
+        transform:scale(1.3);
+    }
+}
+#soccerimg{
+    position:absolute;
+    left:50%;
+}
+#guessimg{
+    position:absolute;
+    left:50%;
+    top:30%;
+}
+
+#chocolateimg{
+    position:absolute;
+    left:50%;
+    top:50%;
+}
+
+#calculatorimg{
+    position:absolute;
+    left:50%;
+    top:70%;
+}
+
+
+.header{
+    color:white;
+}
+
+#guess{
+    font: size 2rem;
+    color:white;
+    position:absolute;
+    top:25.5%;
+}
+
+#chocolate{
+    color:white;
+    position:absolute;
+    top:45%;
+}
+
+#calculator{
+    color:white;
+    position:absolute;
+    top:65%;
+}
+
+#soccerdescription{
+    padding:10px;
+    width:35%;
+    height:14%;
+    background-color: rgb(0, 0, 0);
+    position:absolute;
+    top:11%;
+    opacity:0.4;
+    border-radius: 15px;
+}
+#soccerdescription:hover{
+    opacity:1;
+}
+
+#guessdescription{
+    padding:10px;
+    width:35%;
+    height:14%;
+    background-color: rgb(0, 0, 0);
+    position:absolute;
+    top:30%;
+    opacity:0.4;
+    border-radius: 15px;
+}
+#guessdescription:hover{
+    opacity:1;
+}
+#chocodescription{
+    padding:10px;
+    width:35%;
+    height:14%;
+    background-color: rgb(0, 0, 0);
+    position:absolute;
+    top:50%;
+    opacity:0.4;
+    border-radius: 15px;
+}
+#chocodescription:hover{
+    opacity:1;
+}
+#caldescription{
+    padding:10px;
+    width:35%;
+    height:14%;
+    background-color: rgb(0, 0, 0);
+    position:absolute;
+    top:70%;
+    opacity:0.4;
+    border-radius: 15px;
+}
+#caldescription:hover{
+    opacity:1;
+}
+
+p{
+    color:white;
+}
+
+footer{
+    color:white;
+    text-align:center;
+    z-index: 2000;
+    position: relative;
+    margin:10px;
+    padding:20px 0;
+    background-color:rgb(40, 0, 0);
+
+    border-radius:20px;
+    box-shadow: 5px 10px 15px 20px rgba(132, 14, 37, 0.651)  ;
+}
+
+footer:hover{
+    color:rgb(132, 14, 37);
+}
